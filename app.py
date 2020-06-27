@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-sample = pd.read_excel("teste.xlsx")
-sample2 = pd.read_excel("teste2.xlsx")
+sample = pd.read_csv("teste.csv")
+sample2 = pd.read_csv("teste2.csv")
 st.title("ola testando")
 st.subheader("ola")
 st.write(sample)
